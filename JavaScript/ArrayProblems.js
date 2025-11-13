@@ -43,11 +43,23 @@
 // console.log(cricketers1);
 
 //merage two arrays
-var a = [10, 20, 30];
-var b = [40, 50, 60];
-var c = [...a, ...b];
-console.log(c);
-var d = a.concat(b);
-console.log(d);
-var res = a.includes(20); //returns boolean value
-console.log(res);
+// var a = [10, 20, 30];
+// var b = [40, 50, 60];
+// var c = [...a, ...b];
+// console.log(c);
+// var d = a.concat(b);
+// console.log(d);
+// var res = a.includes(20); //returns boolean value
+// console.log(res);
+
+//write a for loop that loops through an array and skips
+let a = [1, 2, 3, 4, 5];
+let b = [];
+for (let i = 0; i < a.length; i++) {
+  if (a[i] == 3) {
+    continue;
+  }
+  console.log(a[i]);
+  b.push(a[i]);
+}
+console.log(b);
