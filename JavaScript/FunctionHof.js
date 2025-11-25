@@ -31,10 +31,26 @@
 // f1(let c=function(){
 //   console.log("Hello");
 // }); //error
+// let c = function () {
+//   console.log("Hello");
+// };
+// function f1(a) {
+//   a();
+// }
+// f1(c);
+// let c = function () {
+//   console.log("Hello");
+// };
+// function f1(a) {
+//   return a();
+// }
+// console.log(f1(c));
 let c = function () {
-  console.log("Hello");
+  return "Hello";
 };
+
 function f1(a) {
-  a();
+  return a();
 }
-f1(c);
+
+console.log(f1(c));
