@@ -53,13 +53,16 @@
 // console.log(res);
 
 //write a for loop that loops through an array and skips
-let a = [1, 2, 3, 4, 5];
-let b = [];
-for (let i = 0; i < a.length; i++) {
-  if (a[i] == 3) {
-    continue;
-  }
-  console.log(a[i]);
-  b.push(a[i]);
-}
-console.log(b);
+// let a = [1, 2, 3, 4, 5];
+// let b = [];
+// for (let i = 0; i < a.length; i++) {
+//   if (a[i] == 3) {
+//     continue;
+//   }
+//   console.log(a[i]);
+//   b.push(a[i]);
+// }
+// console.log(b);
+
+let a = [,];
+console.log(a);
