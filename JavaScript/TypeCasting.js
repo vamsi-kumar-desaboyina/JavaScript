@@ -1,0 +1,65 @@
+//tonumber
+// console.log(Number("500"));
+// console.log(Number("suresh"));
+// console.log(Number("1000.0098"));
+// console.log(Number(""));
+// console.log(Number(" "));
+// console.log(Number("    "));
+// console.log(Number("    1"));
+// console.log(Number(true));
+// console.log(Number(null));
+// console.log(Number(500n));
+// let u;
+// console.log(Number(u));
+// console.log(Number(Symbol("id"))); //error
+
+// console.log(String("500"));
+// console.log(String("suresh"));
+// console.log(String("1000.0098"));
+// console.log(String(""));
+// console.log(String(" "));
+// console.log(String("    "));
+// console.log(String("    1"));
+// console.log(String(true));
+// console.log(String(null));
+// console.log(String(500n));
+// let u;
+// console.log(String(u));
+// console.log(String(Symbol("id")));
+
+// console.log(Number(true));
+// console.log(Number(false));
+// console.log(Number(null));
+// console.log(Number(undefined));
+// console.log(Number("143"));
+// console.log(Number(""));
+// console.log(Number(" "));
+// console.log(Number("    "));
+// console.log(Number("    1"));
+// console.log(Number("1four3"));
+// console.log(Number("    1  "));
+// console.log(Number("    1 4 "));
+// console.log(Number(null));
+// console.log(Number(500n));
+// let u;
+// console.log(Number(u));
+
+// console.log(Boolean(true));
+// console.log(Boolean(false));
+// console.log(Boolean(null));
+// console.log(Boolean(undefined));
+// console.log(Boolean("143"));
+// console.log(Boolean(""));
+// console.log(Boolean(" "));
+// console.log(Boolean("    "));
+// console.log(Boolean("    1"));
+// console.log(Boolean("1four3"));
+// console.log(Boolean("    1  "));
+// console.log(Boolean("    1 4 "));
+// console.log(Boolean(null));
+// console.log(Boolean(500n));
+// let u;
+// console.log(Boolean(u));
+// console.log(Boolean(Symbol("id")));
+let a = undefined;
+console.log(typeof a);

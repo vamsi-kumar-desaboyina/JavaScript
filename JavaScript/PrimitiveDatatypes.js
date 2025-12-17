@@ -28,7 +28,7 @@ let aa = null;
 console.log(aa, typeof aa);
 let aaa;
 console.log(aaa, typeof aaa);
-let big = 111111111111111n;
+let big = 111n;
 console.log(big, typeof big);
 let asymbol = Symbol("vamsi");
 let asymbol1 = Symbol("vamsi");
