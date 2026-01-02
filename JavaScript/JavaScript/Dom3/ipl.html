@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ipl.css" />
+  </head>
+  <body>
+    <script>
+      var year = Number(
+        prompt(
+          "Enter the year to see the winning team of the ipl between 2008 to 2025"
+        )
+      );
+      console.log(year);
+    </script>
+    <div>
+      <h1>winners from 2008 to 2025 ipl teams</h1>
+      <img src="images/t.jpg" alt="" />
+      <h2></h2>
+      <h3 id="year" hidden></h3>
+      <button id="btn" type="submit">Check IPL Winner</button>
+    </div>
+
+    <script>
+      // Set button value or text using JS
+      document.getElementById("year").innerHTML = year;
+    </script>
+    <script src="ipl.js"></script>
+  </body>
+</html>
