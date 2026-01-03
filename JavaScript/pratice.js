@@ -17,3 +17,4 @@ console.log(NaN, typeof NaN);
 console.log(NaN + 1, typeof NaN + 1);
 console.log(NaN + 1, typeof (NaN + 1));
 console.log(NaN ** 0);
+
