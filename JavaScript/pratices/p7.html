@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #website{
+            color: rgb(138, 54, 23);
+            font-size: 3rem;
+            margin: 2rem;
+        }
+        h1{
+            color: black;
+            font-size: 5rem;
+            margin: 2rem;
+            line-height: 6.5rem;
+        }
+        #divone{
+            border: solid black;
+            float: left;
+            width: 30rem;
+            padding: 1rem;
+            margin-left: 3rem;;
+        }
+        #divtwo{
+            border: solid black;
+            float: right;
+            width: 30rem;
+            padding: 1rem;
+            margin-right: 3rem;
+        }
+        img{
+            float: left;
+            margin-right: 2rem;
+        }
+        h2{
+            margin: 0;
+        }
+        @media(max-width:480px){
+            #divone{
+                float: none;
+                margin-left: 0;
+                width: 100%;
+                box-sizing: border-box;
+                overflow: hidden;
+                font-size: 2rem;
+                border: 1px solid saddlebrown;
+                
+            }
+            #divtwo{
+                float: none;
+                margin-left: 0;
+                border: 1px solid saddlebrown;
+                width: 100%;
+                margin-top: 1rem;
+                box-sizing: border-box;
+                overflow: hidden;
+                font-size: 2rem;
+            }
+            img{
+                float: none;
+                width: 100%;
+            }
+            #website,h1{
+                margin: 1rem;
+            }
+            
+        }
+        @media (min-width:481px) and (max-width:1200px){
+            *{
+                margin: 0;
+            }
+            #divone{
+                float: none;
+                 box-sizing: border-box;
+                overflow: hidden;
+                font-size: 2rem;
+                width: 100%;
+                margin-left: 0;
+            }
+            #divtwo{
+                float: none;
+                box-sizing: border-box;
+                overflow: hidden;
+                margin-top: 1rem;
+                font-size: 2rem;
+                width: 100%;
+            }
+            img{
+                float: none;
+                width: 100%;
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <p id="website">dev.com</p>
+    <h1>We are <span style="color: rgb(66, 66, 155);"> Creative</span> Design Agency</h1>
+    <div id="divone">
+        <img src="virat.jpg" alt="virat kohli image">
+        <h2>Virat Kohli</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt expedita modi adipisci aperiam doloremque, earum quaerat numquam! Totam magnam enim provident neque ab architecto quibusdam aperiam voluptas id placeat?
+        </p>
+    </div>
+    <div id="divtwo">
+        <img src="virat.jpg" alt="virat kohli image">
+        <h2>Virat Kohli</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt expedita modi adipisci aperiam doloremque, earum quaerat numquam! Totam magnam enim provident neque ab architecto quibusdam aperiam voluptas id placeat?
+        </p>
+    </div>
+</body>
+</html>
